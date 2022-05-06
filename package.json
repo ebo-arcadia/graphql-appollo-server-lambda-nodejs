@@ -1,0 +1,10 @@
+{
+  "name": "graphql-appollo-server-lambda-nodejs",
+  "version": "1.0.0",
+  "description": "graphql node js project",
+  "main": "src/index.js",
+  "repository": "https://github.com/ebo-arcadia/graphql-appollo-server-lambda-nodejs.git",
+  "author": "ebo arcadia",
+  "license": "MIT",
+  "private": false
+}
