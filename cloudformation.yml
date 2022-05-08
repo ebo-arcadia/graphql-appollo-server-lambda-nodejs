@@ -16,7 +16,7 @@ Resources:
     Properties:
       Code:
         S3Bucket: !Ref BucketName
-        S3Key: !Sub lambda-node-project.zip
+        S3Key: !Sub base-graphql-api-${Version}.zip
       Handler: src/index.handler
       Description: GraphQL Apollo Server
       Role: !GetAtt LambdaExecutionRole.Arn
